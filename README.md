@@ -1,2 +1,4 @@
 # Crowdfunding_ETL
 SMU Project 2
+
+The first three subsections for this project are shown in the file called ETL_Mini_Project_BQuintero_LNovo.ipynb. The four csv files created as a result of running this code are found in the Resources folder. These csv files were used to complete part 4, Create the Crowdfunding Database. Evidence of the ERD for the four tables is included in the QuickDBD_crowdfunding_db_ERD.PNG image. The database schema is in the Postgres file named crowdfunding_db_schema.sql. The code in this .sql file successfully generated a Postgres database named crowdfunding_db. The data for the database was loaded for each table in the order in which the tables are listed in the crowdfunding_db_schema.sql document (the campaign table data was loaded last). The final documents which appear in the Resources folder are two .xlsx documents containing the data used to create the initial DataFrames.
