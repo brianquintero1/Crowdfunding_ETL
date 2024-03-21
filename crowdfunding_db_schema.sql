@@ -33,10 +33,7 @@ CREATE TABLE campaign(
     end_date DATE NOT NULL,
     category_id VARCHAR(5) NOT NULL,
     subcategory_id VARCHAR(5) NOT NULL,
-    PRIMARY KEY (cf_id),
-    FOREIGN KEY (contact_id) REFERENCES contacts (contact_id),
-    FOREIGN KEY (category_id) REFERENCES category (category_id),
-    FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id)
+    PRIMARY KEY (cf_id)
 );
 
 ALTER TABLE campaign ADD CONSTRAINT fk_campaign_contact_id FOREIGN KEY (contact_id)
