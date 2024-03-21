@@ -22,7 +22,7 @@ CREATE TABLE campaign(
     cf_id INT NOT NULL,
     contact_id INT NOT NULL,
     company_name VARCHAR(100) NOT NULL,
-    description_ TEXT NOT NULL,
+    description TEXT NOT NULL,
     goal NUMERIC (15, 2) NOT NULL,
     pledged NUMERIC(15,2) NOT NULL,
     outcome VARCHAR(20) NOT NULL,
